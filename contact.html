@@ -5,39 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="C:\Users\fiuza\Desktop\demo\Basic-Portfolio\assets\css\style.css">
 </head>
 
 <body>
 
-        <div class="container">
-          <div class="clearfix">
-          <header>Isaac Fiuza</header>
-          <menu><a href="index.html">About Me</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="index.html">Contact Me</a>
-              </menu>
-              <hr>
-            <main>
-              <h1>Contact</h1><br>
+    <div class="container">
+        <header>Isaac Fiuza</header>
+        <div class="menu">
+            <a href="index.html">About Me | </a>
+            <a href="portfolio.html">Portfolio |</a>
+            <a href="contact.html"> Contact Me</a>
+        </div>
 
-              <form action="mailto:fiuzaisaac@hotmail.com" method="post" enctype="text/plain">
-                <label>Name: </label>
-                <input type="text" name="yourName" value=""><br><br>
-                <label>Email:</label>
-                <input type="text" name="yourEmail" value=""><br><br>
-                <label>Your Message:</label><br><br>
-                <textarea name="name" rows="10" cols="30"></textarea><br><br>
-                <input type="submit" name="submit my name">
-        
-            </form>
-        
-      
-              </main>
-          <footer>by Isaac © 2019</footer>
-        </div>
-        </div>
-      
-      </body>
+
+        <main>
+
+            <h1>Contact</h1>
+            <hr><br>
+
+            <div>
+                <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="youremail" placeholder="Your Email.."><br>
+
+                    <label for="message">Message</label><br>
+                    <input type="text" id="msg" name="yourmsg" placeholder="Your Message..">
+
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+        </main>
+        <footer>by Isaac © 2019</footer>
+    </div>
+    </div>
+
+</body>
 
 </html>
